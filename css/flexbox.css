@@ -1,3 +1,4 @@
+/*Header*/
 .cabecera__container {
   display: flex;
   justify-content: space-between;
@@ -8,6 +9,15 @@
 
 .cabecera__buscar__item {
   display: none;
+}
+
+/*Upper section*/
+.superior__seccion__container {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: scroll;
+  gap: 15px;
 }
 
 .rodapie__container {
