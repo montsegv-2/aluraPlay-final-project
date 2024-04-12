@@ -55,12 +55,14 @@
 .videos__item {
   height: 303px;
   width: 280px;
+  flex-grow: 1;
 }
 
 .videos__container {
   display: flex;
   flex-wrap: wrap;
-  gap: 35px;
+
+  gap: 25px;
 }
 
 .descripcion-video {
@@ -69,6 +71,7 @@
   align-items: start;
 }
 
+/*Challenge description video*/
 .descripcion-video img {
   margin-right: 1rem;
   flex-shrink: 0; /*  Evita que la imagen se reduzca */
