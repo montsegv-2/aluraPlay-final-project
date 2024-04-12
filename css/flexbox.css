@@ -11,10 +11,21 @@
   display: none;
 }
 
+/* Menu lateral */
+
+.menu__container {
+  position: fixed;
+  bottom: 0%;
+  height: 75px;
+  width: 100%;
+  /* display: flex; */
+}
+
 /*Upper section*/
 .superior__seccion__container {
   display: flex;
   align-items: center;
+  /* White-space property specifies how white-space inside an element is handled. */
   white-space: nowrap;
   overflow: scroll;
   gap: 15px;
